@@ -37,9 +37,9 @@ const About = () => {
           </article>
         </div>
         <p>
-        My name is Dallas Sybrowsky and I have a B.S. in Biochemistry and Cell Biology from UC San Diego. After working in sales for 12 years I moved on to pursue a career in coding. I'm interested in software engineering and I'm looking forward to partnering with you to build software that can improve the productivity and lives of users. This is a portfolio of my work as a full-stack developer. It's a work in progress so please feel free to browse the projects I've completed and keep an eye out for new additions coming soon!
+        My name is Dallas Sybrowsky and I am a full stack developer. I'm always adding new content so keep an eye out for new additions!
         </p>
-        <a href="#contact" className="btn btn-primary">Let's Talk</a>
+        <a href="#contact" className="btn btn-primary">Contact me</a>
       </div>
     </div>
   </section>
