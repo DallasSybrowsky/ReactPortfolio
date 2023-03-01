@@ -43,9 +43,8 @@ header {
   height: 30rem;
   position: absolute;
   left: calc(50% - 11rem);
-  /* bottom: calc(50%-11rem); */
   margin-top: 4rem;
-  border-radius: 12rem 12rem 2rem 2rem;
+  border-radius: 12rem 12rem 0 0;
   padding: 5rem 1.5rem 1.5rem 1.5rem;
 }
 
