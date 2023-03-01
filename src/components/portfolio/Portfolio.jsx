@@ -5,6 +5,7 @@ import IMG2 from "../../assets/hptrQuiz.png";
 import IMG3 from "../../assets/JATE.png";
 import IMG4 from "../../assets/FidoFind.png";
 import IMG5 from "../../assets/weather.png";
+import IMG6 from "../../assets/workday.png"
 
 const data = [
   {
@@ -41,6 +42,13 @@ const data = [
     title: "Weather Dashboard",
     github: "https://github.com/DallasSybrowsky/Weather-app",
     demo: "https://dallassybrowsky.github.io/Weather-app",
+  },
+  {
+    id: 6,
+    image: IMG6,
+    title: "Work Day Scheduler",
+    github: "https://github.com/DallasSybrowsky/Workday-Scheduler",
+    demo: "https://dallassybrowsky.github.io/Workday-Scheduler/",
   },
 ];
 const Portfolio = () => {
