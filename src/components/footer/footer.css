@@ -56,9 +56,7 @@ footer a {
 
 /* =========== MEDIA QUERIES (MEDIUM) =========== */
 @media screen and (max-width: 1024px) {
-  footer {
-    width: 110vw;
-  }
+
 }
 
 /* =========== MEDIA QUERIES (SMALL) =========== */

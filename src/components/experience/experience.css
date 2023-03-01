@@ -8,13 +8,14 @@
   background: var(--color-bg-variant);
   padding: 2.4rem 5rem;
   border-radius: 2rem;
-  border: 1px solid transparent;
+  border: 2px solid transparent;
   transition: var(--transition);
 }
 
 .experience__container > div:hover {
   background: transparent;
-  border-color: var(--color-primary-variant);
+  backdrop-filter: blur(3px);
+  border: 2px solid var(--color-primary-variant);
   cursor: default;
 }
 

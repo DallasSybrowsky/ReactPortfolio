@@ -37,8 +37,9 @@
 
 .about__card {
   background: var(--color-bg-variant);
-  border: 1px solid transparent;
+  border: 2px solid transparent;
   border-radius: 1rem;
+  /* width: auto; */
   padding: 2rem;
   text-align: center;
   transition: var(--transition);
@@ -47,7 +48,7 @@
 .about__card:hover {
   background: transparent;
   backdrop-filter: blur(3px);
-  border-color: var(--color-primary-varient);
+  border: 2px solid var(--color-primary-variant);
   cursor: default;
 }
 

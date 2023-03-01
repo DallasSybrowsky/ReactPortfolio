@@ -14,19 +14,21 @@
 .contact__option {
   background: var(--color-bg-variant);
   padding: 1.2rem;
+  margin-bottom: .6rem;
   border-radius: 1.2rem;
   text-align: center;
-  border: 1px solid transparent;
+  border: 2px solid transparent;
   transition: var(--transition);
 }
 .contact__option:hover {
   background: transparent;
+  backdrop-filter: blur(3px);
   border-color: var(--color-primary-variant);
 }
 
 .contact__option-icon {
-  font-size: 1.8rem;
-  margin-bottom: -0.2rem;
+  font-size: 2.4rem;
+  /* margin-bottom: -0.2rem; */
 }
 
 .contact__option h4 {
@@ -38,7 +40,6 @@
 }
 
 .contact__option a {
-  margin: 1.2rem 0 0 0;
   display: inline-block;
   font-size: 1.1rem;
 }
@@ -52,10 +53,12 @@ form {
 
 input,
 textarea {
+  font-family: "Alegreya Sans", sans-serif;
   width: 100%;
   padding: 1.5rem;
   border-radius: 0.5rem;
   background: transparent;
+  backdrop-filter: blur(3px);
   border: 2px solid var(--color-primary-variant);
   resize: none;
   color: var(--color-white);

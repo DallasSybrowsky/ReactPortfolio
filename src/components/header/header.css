@@ -1,7 +1,11 @@
 header {
   height: 100vh;
-  padding-top: 7rem;
+  padding-top: 5rem;
   overflow: hidden;
+}
+
+h1 {
+  color: var(--color-primary);
 }
 
 .header__container {
@@ -39,6 +43,7 @@ header {
 /* =========== ME (IMAGE) =========== */
 .me {
   background: linear-gradient(var(--color-primary), transparent);
+  backdrop-filter: blur(3px);
   width: 22rem;
   height: 30rem;
   position: absolute;

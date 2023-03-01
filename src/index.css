@@ -11,10 +11,17 @@
 }
 
 :root {
-  --color-bg: #1f1f38;
-  --color-bg-variant: #2c2c6c;
+  --color-bg: #1d2544;
+  --color-bg-variant: #2c326c;
   --color-primary: #4db5ff;
   --color-primary-variant: rgba(77, 181, 255, 0.4);
+
+/* Second Option */
+  /* --color-bg: #0e2c46;
+  --color-bg-variant: #fc9d01;
+  --color-primary: #d94f00;
+  --color-primary-variant: rgba(86, 176, 209, 0.4); */
+
   --color-white: #fff;
   --color-light: rgba(255, 255, 255, 0.6);
 
@@ -47,7 +54,6 @@ body {
   left: 0px;
   top : 0px;
   z-index: 1;
-
 }
 
 /* =========== GENERAL STYLES =========== */
@@ -100,6 +106,7 @@ a:hover {
   width: max-content;
   display: inline-block;
   color: var(--color-primary);
+  backdrop-filter: blur(3px);
   padding: 0.75rem 1.2rem;
   border-radius: 0.4rem;
   cursor: pointer;
@@ -126,6 +133,14 @@ img {
 
 /* =========== MEDIA QUERIES (MEDIUM) =========== */
 @media screen and (max-width: 1024px) {
+  body {
+    background-image: radial-gradient(rgba(255, 255, 255, 0.1) 9%, transparent 9%);
+    background-position: 0% 0%;
+    background-size: 6vmin 6vmin;
+    position: absolute;
+    z-index: 1;
+  }
+
   .container {
     width: var(--container-width-md);
   }
@@ -137,6 +152,14 @@ img {
 
 /* =========== MEDIA QUERIES (SMALL) =========== */
 @media screen and (max-width: 600px) {
+  body {
+    background-image: radial-gradient(rgba(255, 255, 255, 0.1) 9%, transparent 9%);
+    background-position: 0% 0%;
+    background-size: 6vmin 6vmin;
+    position: absolute;
+    z-index: 1;
+  }
+
   .container {
     width: var(--container-width-sm);
   }

@@ -13,7 +13,6 @@ const Contact = () => {
           <article className="contact__option">
             <MdOutlineMail className="contact__option-icon" />
             <h4>Email</h4>
-            <h5>dallas.sybrowsky@gmail.com</h5>
             <a href="mailto:dallas.sybrowsky@gmail.com" target="_blank">
               Send a message
             </a>
@@ -21,7 +20,6 @@ const Contact = () => {
           <article className="contact__option">
             <AiOutlinePhone className="contact__option-icon" />
             <h4>Phone</h4>
-            <h5>(951) 284-5858</h5>
             <a href="tel:9512845858">Click to call me</a>
           </article>
         </div>
