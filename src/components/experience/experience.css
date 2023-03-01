@@ -12,6 +12,45 @@
   transition: var(--transition);
 }
 
+.experience__container h3 {
+  font-size: 2rem;
+}
+
+.experience__container h4 {
+  font-size: 1.2rem;
+}
+
+.experience__frontend small {
+  font-size: 0.9rem;
+  color: var(--color-bg);
+}
+
+.experience__frontend:hover small {
+  font-size: 0.9rem;
+  color: var(--color-light);
+  transition: var(--transition);
+}
+
+.experience__frontend:hover .experience__details-icon {
+  color: var(--color-primary);
+  transition: var(--transition);
+}
+
+.experience__backend small {
+  font-size: 0.9rem;
+  color: var(--color-bg);
+}
+
+.experience__backend:hover small {
+  font-size: 0.9rem;
+  color: var(--color-light);
+  transition: var(--transition);
+}
+.experience__backend:hover .experience__details-icon {
+  color: var(--color-primary);
+  transition: var(--transition);
+}
+
 .experience__container > div:hover {
   background: transparent;
   backdrop-filter: blur(3px);
@@ -21,8 +60,8 @@
 
 .experience__container > div h3 {
   text-align: center;
-  margin-bottom: 2rem;
-  color: var(--color-primary);
+  margin-bottom: 1.6rem;
+  color: var(--color-white);
 }
 
 .experience__content {
@@ -38,7 +77,7 @@
 
 .experience__details-icon {
   margin-top: 6px;
-  color: var(--color-primary);
+  color: var(--color-bg);
 }
 
 /* =========== MEDIA QUERIES (MEDIUM) =========== */

@@ -24,11 +24,18 @@
   background: transparent;
   backdrop-filter: blur(3px);
   border-color: var(--color-primary-variant);
+  transition: var(--transition);
 }
 
 .contact__option-icon {
   font-size: 2.4rem;
-  /* margin-bottom: -0.2rem; */
+  color: var(--color-bg);
+}
+
+.contact__option:hover .contact__option-icon {
+  font-size: 2.4rem;
+  color: var(--color-primary);
+  transition: var(--transition);
 }
 
 .contact__option h4 {

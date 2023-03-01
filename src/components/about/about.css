@@ -40,7 +40,7 @@
   border: 2px solid transparent;
   border-radius: 1rem;
   /* width: auto; */
-  padding: 2rem;
+  padding: 1.2rem;
   text-align: center;
   transition: var(--transition);
 }
@@ -53,19 +53,33 @@
 }
 
 .about__icon {
-  color: var(--color-primary);
+  color: var(--color-bg);
   font-size: 1.4rem;
   margin-bottom: 1rem;
 }
 
+.about__card:hover > .about__icon {
+  color: var(--color-primary);
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+  transition: var(--transition);
+}
+
 .about__card h5 {
-  font-size: 0.95rem;
+  font-size: 1.2rem;
 }
 
 .about__card small {
-  font-size: 0.7rem;
-  color: var(--color-light);
+  font-size: 0.9rem;
+  color: var(--color-bg);
 }
+
+.about__card:hover small {
+  font-size: 0.9rem;
+  color: var(--color-light);
+  transition: var(--transition);
+}
+
 .about__content p {
   margin: 2rem 0 2.6rem;
   color: var(--color-light);

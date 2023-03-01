@@ -11,16 +11,16 @@
 }
 
 :root {
-  --color-bg: #1d2544;
+  /* --color-bg: #1d2544;
   --color-bg-variant: #2c326c;
   --color-primary: #4db5ff;
-  --color-primary-variant: rgba(77, 181, 255, 0.4);
+  --color-primary-variant: rgba(77, 181, 255, 0.4); */
 
 /* Second Option */
-  /* --color-bg: #0e2c46;
-  --color-bg-variant: #fc9d01;
-  --color-primary: #d94f00;
-  --color-primary-variant: rgba(86, 176, 209, 0.4); */
+  --color-bg: #162b44;
+  --color-bg-variant: #b1bd42;
+  --color-primary: #75a3fa;
+  --color-primary-variant: rgba(86, 176, 209, 0.4);
 
   --color-white: #fff;
   --color-light: rgba(255, 255, 255, 0.6);
@@ -47,7 +47,7 @@ body {
   line-height: 1.7;
   height: 100vh;
   width: 100vw;
-  background-image: radial-gradient(rgba(255, 255, 255, 0.1) 9%, transparent 9%);
+  background-image: radial-gradient(rgba(117, 163, 250, 0.3) 9%, transparent 9%);
   background-position: 0% 0%;
   background-size: 3vmin 3vmin;
   position: absolute;
@@ -85,8 +85,15 @@ section > h5 {
 }
 
 section > h2 {
+  font-size: 3rem;
   color: var(--color-primary);
   margin-bottom: 3rem;
+}
+
+section > h5 {
+  font-size: 1.8rem;
+  color: var(--color-light);
+  /* margin-bottom: 1rem; */
 }
 
 .text-light {

@@ -16,6 +16,7 @@
   border-color: var(--color-primary-variant);
   background: transparent;
   backdrop-filter: blur(3px);
+  transition: var(--transition);
 }
 
 .portfolio__item-image {
@@ -34,6 +35,28 @@
   justify-content: space-evenly;
   gap: 1rem;
   margin-bottom: 1rem;
+}
+
+.portfolio__item-cta .btn {
+  border: 1px solid var(--color-bg);
+  color: var(--color-bg);
+}
+
+.portfolio__item:hover .btn {
+  border: 1px solid var(--color-primary);
+  color: var(--color-primary);
+  transition: var(--transition)
+}
+
+.portfolio__item:hover .btn-primary {
+  border: 1px solid var(--color-primary);
+  color: var(--color-bg);
+  transition: var(--transition);
+}
+
+.portfolio__item-cta .btn-primary {
+  border: 1px solid var(--color-primary);
+  color: var(--color-bg);
 }
 
 /* =========== MEDIA QUERIES (MEDIUM) =========== */
