@@ -1,5 +1,5 @@
 .container.testimonials__container {
-    width: 40%;
+    width: 60%;
 }
 
 .client__avatar {
@@ -15,7 +15,6 @@
     background: var(--color-bg-variant);
     text-align: center;
     padding: 2rem;
-    margin: 1rem;
     border-radius: 2rem;
     user-select: none;
 }
@@ -30,10 +29,17 @@
 
 /* =========== MEDIA QUERIES (MEDIUM) =========== */
 @media screen and (max-width: 1024px) {
-    
+    .container.testimonials__container {
+        width: var(--container-width-md);
+    }
   }
   
   /* =========== MEDIA QUERIES (SMALL) =========== */
   @media screen and (max-width: 600px) {
-    
+    .container.testimonials__container {
+        width: var(--container-width-sm);
+    }
+    .client__review {
+        width: var(--container-width-sm);
+    }
   }
