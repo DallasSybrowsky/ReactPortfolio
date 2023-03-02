@@ -1,70 +1,87 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# React Portfolio
+![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
 
-## Available Scripts
+## Description
 
-In the project directory, you can run:
+This is a ReactJS powered web developer portfolio showcasing my projects and what I've learned throughout the boot camp.
 
-### `npm start`
+In order to access the portfolio click [here](https://dallassybrowsky.github.io/ReactPortfolio/).
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Table of Contents
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- [Installation](#installation)
+- [Credits](#credits)
+- [Usage](#usage)
+- [License](#license)
+- [Questions](#questions)
 
-### `npm test`
+## Installation
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The installation process for this project is as follows:
 
-### `npm run build`
+ - I created the [ReactPortfolio](https://github.com/DallasSybrowsky/ReactPortfolio) repo in GitHub.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+ - I started the project by running the following command: 
+ ```
+ npm i create-react-app
+ ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+ - I then set up the folder structure and went about creating all the parts of the project
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+ - During the development process I ran the following command to run the application locally:
+ ```
+ npm start 
+ ```
 
-### `npm run eject`
+## Credits
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+This project is the original work of Dallas Sybrowsky. More of my work is available on GitHub at [DallasSybrowsky](https://github.com/DallasSybrowsky).
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Usage
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+This project is a ReactJS powered portfolio showcasing the technologies and skills I've learned, and the work I've done throughout the boot camp. It was built using a single page and the content is rendered with React. There is a singluar navigation bar that floats at the bottom of the screen and allows easy navigation to anywhere on the page.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Below are screenshots from the deployed app:
 
-## Learn More
+Homepage:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<img width="70%" alt="Homepage" src="./src/assets/ReadmeImg/Homepage.png">
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+About:
 
-### Code Splitting
+<img width="70%" alt="About section" src="./src/assets/ReadmeImg/About.png">
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Skills:
 
-### Analyzing the Bundle Size
+<img width="70%" alt="Skills section" src="./src/assets/ReadmeImg/Skills.png">
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Portfolio:
 
-### Making a Progressive Web App
+<img width="70%" alt="Portfolio section" src="./src/assets/ReadmeImg/Portfolio.png">
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Contact:
 
-### Advanced Configuration
+<img width="70%" alt="Contact section" src="./src/assets/ReadmeImg/Contact.png">
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Footer:
 
-### Deployment
+<img width="70%" alt="Footer" src="./src/assets/ReadmeImg/Footer.png">
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Additionally the app deploys equally well to tablets and smartphones. Below are example screenshots from a tablet-size screen as well as a phone-size screen.
 
-### `npm run build` fails to minify
+Tablet:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<img width="40%" alt="Tablet screen view" src="./src/assets/ReadmeImg/TabletResponsive.png">
+
+Phone:
+
+<img width="30%" alt="Phone screen view" src="./src/assets/ReadmeImg/PhoneResponsive.png">
+
+## License
+
+This application is protected under the MIT license. For detailed licensing information please refer to the MIT license information.
+
+## Questions
+
+If you have any questions, you may contact me directly by clicking [here](dallas.sybrowsky@gmail.com).
