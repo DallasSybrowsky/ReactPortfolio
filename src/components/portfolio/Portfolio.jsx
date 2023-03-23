@@ -1,54 +1,55 @@
 import React from "react";
 import "./portfolio.css";
-import IMG1 from "../../assets/bibliomaniaHomepage.jpg";
-import IMG2 from "../../assets/hptrQuiz.png";
-import IMG3 from "../../assets/JATE.png";
-import IMG4 from "../../assets/FidoFind.png";
-import IMG5 from "../../assets/weather.png";
-import IMG6 from "../../assets/workday.png"
+
+import IMG1 from "../../assets/CodeCollab.png";
+import IMG2 from "../../assets/bibliomaniaHomepage.jpg";
+import IMG3 from "../../assets/hptrQuiz.png";
+import IMG4 from "../../assets/JATE.png";
+import IMG5 from "../../assets/FidoFind.png";
+import IMG6 from "../../assets/weather.png";
 
 const data = [
   {
     id: 1,
     image: IMG1,
     title: "Bibliomania",
-    github: "https://github.com/DallasSybrowsky/Bibliomania",
-    demo: "https://bibliomania.herokuapp.com/",
+    github: "https://github.com/DallasSybrowsky/CodeCollab",
+    demo: "https://code-collab-dallas.herokuapp.com/",
   },
   {
     id: 2,
     image: IMG2,
+    title: "Bibliomania",
+    github: "https://github.com/DallasSybrowsky/Bibliomania",
+    demo: "https://bibliomania.herokuapp.com/",
+  },
+  {
+    id: 3,
+    image: IMG3,
     title: "Harry Potter Trivia",
     github: "https://github.com/DallasSybrowsky/JS-Quiz",
     demo: "https://dallassybrowsky.github.io/JS-Quiz/",
   },
   {
-    id: 3,
-    image: IMG3,
+    id: 4,
+    image: IMG4,
     title: "J.A.T.E.",
     github: "https://github.com/DallasSybrowsky/Bibliomania",
     demo: "https://dsybrowsky-jate-text-editor.herokuapp.com/",
   },
   {
-    id: 4,
-    image: IMG4,
+    id: 5,
+    image: IMG5,
     title: "FidoFind",
     github: "https://github.com/DallasSybrowsky/FidoFind",
     demo: "https://dallassybrowsky.github.io/FidoFind/index.html",
   },
   {
-    id: 5,
-    image: IMG5,
+    id: 6,
+    image: IMG6,
     title: "Weather Dashboard",
     github: "https://github.com/DallasSybrowsky/Weather-app",
     demo: "https://dallassybrowsky.github.io/Weather-app",
-  },
-  {
-    id: 6,
-    image: IMG6,
-    title: "Work Day Scheduler",
-    github: "https://github.com/DallasSybrowsky/Workday-Scheduler",
-    demo: "https://dallassybrowsky.github.io/Workday-Scheduler/",
   },
 ];
 const Portfolio = () => {
