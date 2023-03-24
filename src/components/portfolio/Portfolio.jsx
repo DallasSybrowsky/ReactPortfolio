@@ -12,7 +12,7 @@ const data = [
   {
     id: 1,
     image: IMG1,
-    title: "Bibliomania",
+    title: "CodeCollab",
     github: "https://github.com/DallasSybrowsky/CodeCollab",
     demo: "https://code-collab-dallas.herokuapp.com/",
   },
