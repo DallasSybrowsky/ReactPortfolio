@@ -1,9 +1,36 @@
-import React from "react";
+import React, { useRef } from "react";
 import "./contact.css";
 import { MdOutlineMail } from "react-icons/md";
 import { AiOutlinePhone } from "react-icons/ai";
+import { useState } from "react";
+import emailjs from 'emailjs-com';
 
 const Contact = () => {
+  const form = useRef();
+  const [confirmationMessage, setConfirmationMessage] = useState("");
+  const sendEmail = (e) => {
+    e.preventDefault();
+    emailjs
+      .sendForm(
+        "service_zd8nxtl",
+        "template_ad35oil",
+        form.current,
+        "V9PqwsR97GcaZRWhO"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+          setConfirmationMessage("Email has been sent!");
+          setTimeout(() => {
+            setConfirmationMessage("");
+          }, 5000);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+    form.current.reset();
+  };
   return (
     <section id="contact">
       <h5>Get in touch</h5>
@@ -23,7 +50,7 @@ const Contact = () => {
             <a href="tel:9512845858">Click to call me</a>
           </article>
         </div>
-        <form action="">
+        <form ref={form} onSubmit={sendEmail}>
           <input
             type="text"
             name="name"
@@ -38,6 +65,7 @@ const Contact = () => {
             required
           ></textarea>
           <button className="btn btn-primary">Send Message</button>
+          <p className="conf__message"> {confirmationMessage}</p>
         </form>
       </div>
     </section>

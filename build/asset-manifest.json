@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/ReactPortfolio/static/css/main.04166b2e.css",
-    "main.js": "/ReactPortfolio/static/js/main.e5f75841.js",
+    "main.js": "/ReactPortfolio/static/js/main.e954789c.js",
     "static/media/hptrQuiz.png": "/ReactPortfolio/static/media/hptrQuiz.a3d928ae7cdd271385b9.png",
     "static/media/FidoFind.png": "/ReactPortfolio/static/media/FidoFind.6f1da429b9c7121fe802.png",
     "static/media/Dallas.JPG": "/ReactPortfolio/static/media/Dallas.027bd75a9e55fc31b53f.JPG",
     "static/media/Portrait.png": "/ReactPortfolio/static/media/Portrait.d7e8feea69ea2cd6f988.png",
     "static/media/weather.png": "/ReactPortfolio/static/media/weather.42fad452870010ffa69c.png",
-    "static/media/workday.png": "/ReactPortfolio/static/media/workday.1bd6c7723e8b26a5fe6c.png",
     "static/media/bibliomaniaHomepage.jpg": "/ReactPortfolio/static/media/bibliomaniaHomepage.d6e0169400451b01b06c.jpg",
     "static/media/JATE.png": "/ReactPortfolio/static/media/JATE.7436c749b24d5fb57a17.png",
-    "static/media/DSybrowskyResume.pdf": "/ReactPortfolio/static/media/DSybrowskyResume.294ce4336a288e5ce953.pdf",
+    "static/media/CodeCollab.png": "/ReactPortfolio/static/media/CodeCollab.c43ad011910ba7a3367e.png",
+    "static/media/DSybrowskyDeveloperResume.pdf": "/ReactPortfolio/static/media/DSybrowskyDeveloperResume.903d5939f4efcb50f576.pdf",
     "index.html": "/ReactPortfolio/index.html",
     "main.04166b2e.css.map": "/ReactPortfolio/static/css/main.04166b2e.css.map",
-    "main.e5f75841.js.map": "/ReactPortfolio/static/js/main.e5f75841.js.map"
+    "main.e954789c.js.map": "/ReactPortfolio/static/js/main.e954789c.js.map"
   },
   "entrypoints": [
     "static/css/main.04166b2e.css",
-    "static/js/main.e5f75841.js"
+    "static/js/main.e954789c.js"
   ]
 }
